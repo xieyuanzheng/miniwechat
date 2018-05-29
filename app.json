@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/mall/mall",
+    "pages/demand/demand",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{    
+    "color": "#0000FF",
+    "selectedColor": "#00EE00",
+    "backgroundColor": "#EE82EE",
+    "position":"bottom",    
+    "list":[{
+        "pagePath":"pages/mall/mall",
+        "text":"商城"
+    },
+    {
+      "pagePath": "pages/demand/demand",
+      "text": "需求"
+    },
+    {
+        "pagePath":"pages/test/test",
+        "text":"测试"        
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
